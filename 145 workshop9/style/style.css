@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    width: 100%;
+    background-image: url(../img/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.forma{
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    /* background-color: antiquewhite; */
+    margin-top: 57px;
+}
+h2{
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 36px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 20px;
+    margin-bottom: 62px;
+}
+.forma input, .forma textarea{
+    padding: 22px;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: 800;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+input::placeholder{
+    color:#000000;
+}
+.forma input{
+    font-size: 20px;
+    
+}
+p, label{
+    
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+p{
+    margin-bottom: 44px;
+}
+.forma input[type="submit"]{
+  
+    background-color: #01AF8C;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 106px;
+    cursor: pointer;
+}
+div{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.checkbox{
+    font-size: 40px;
+}
+.metod{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.child, .child1{
+    align-items: center;
+    width: 30%;
+    
+}
+.rrr, .rrrr{
+    display: none;
+}
+
+
+/*------------action------------*/
+
+
+.mtavari{
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+
+
+}
+.migebulia{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.migebulia h2{
+    margin-bottom: 20px;
+}
+.yellow{
+    background-color: #F5BA22;
+    color: #000000;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 400px;
+    border-radius: 10px;
+    border-bottom: 3px solid #000000;
+    margin-bottom: 102px;
+    text-align: center;
+}
+
+
+
+
